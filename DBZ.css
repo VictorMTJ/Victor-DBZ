@@ -1,9 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:cursive;
     background-color: #8a9294;
     margin: 0;
     padding: 0;
-
+    background: url(fondo4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
@@ -14,10 +16,10 @@ body {
 }
 
 .card {
-    background-color: #7a7474;
-    border: 1px solid #ddd;
+    background-color: #ff7b47d1;
+    border: 1px solid #020202;
     border-radius: 5px;
-    box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 25px 20px 20px #0000007c;
     margin: 10px;
     padding: 20px;
     text-align: center;
@@ -25,14 +27,14 @@ body {
 }
 
 .card h2 {
-    color: #072083;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .card p {
     color: #000000;
-    font-size: 0.9em;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
@@ -41,9 +43,11 @@ body {
 }
 
 .card img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border-radius: 5px;
+    margin-bottom: 10px;
+    /* esta clase es de la imagen como tal */
 }
 
 .card h3 {
